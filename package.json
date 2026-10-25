@@ -1,0 +1,18 @@
+{
+  "name": "opencode-security",
+  "version": "0.12.0",
+  "private": true,
+  "type": "module",
+  "description": "Scans a repository or a change with a verified agent pipeline and can suggest patch files.",
+  "exports": {
+    ".": "./index.js",
+    "./server": "./index.js",
+    "./tui": "./tui.js"
+  },
+  "dependencies": {
+    "@opencode-ai/plugin": "1.18.30"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  }
+}
